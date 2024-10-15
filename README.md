@@ -19,13 +19,13 @@ This is a simple convolutional neural network with basic layers to capture spati
 - **Activation Function**: ReLU
 - **Output Layer**: A fully connected layer with 10 output units representing the 10 classes.
 
-### 2. **VGG-like Network**
+### 2. **VGG Network**
 The VGG-like network builds upon the idea of using deep, sequential convolutional layers. It was inspired by the VGG architecture, known for its simplicity and excellent performance in image classification tasks. This version includes six convolutional layers grouped in blocks.
 - **Convolutional Blocks**: Two blocks with 64 filters, two with 128 filters, and two with 256 filters.
 - **Pooling**: MaxPooling layers applied after every two convolutional layers.
 - **Dense Layers**: Two dense layers with 512 units, followed by the output layer.
 
-### 3. **ResNet-like Network**
+### 3. **ResNet**
 The ResNet architecture introduced residual learning to CNNs, solving the vanishing gradient problem when training deeper networks. In this version, we use residual blocks that apply identity connections to allow the model to learn more efficiently.
 - **Residual Blocks**: Four blocks with increasing numbers of filters (64, 128, 256, and 512).
 - **Global Average Pooling**: Applied after the residual blocks, followed by the output layer.
