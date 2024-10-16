@@ -1,7 +1,7 @@
 # CIFAR-10 Image Classification Using CNN Architectures
 
 ## Overview:
-This project focuses on a comparative study of various Convolutional Neural Network (CNN) architectures for image classification on the CIFAR-10 dataset. The goal is to evaluate and understand the performance of popular CNN models such as Vanilla CNN, VGG-like, ResNet-like, LeNet, AlexNet, and DenseNet. The project was carried out using an **L4 GPU** to ensure efficient training and faster processing times, given the complexity of some of the architectures. The CIFAR-10 dataset, known for its simplicity yet significant challenge in computer vision tasks, contains 60,000 images across 10 classes, with 50,000 images for training and 10,000 images for testing. The images are small (32x32 pixels), making it an excellent dataset for experimenting with different architectures without requiring too much computational power.
+This project focuses on a comparative study of various Convolutional Neural Network (CNN) architectures for image classification on the CIFAR-10 dataset. The goal is to evaluate and understand the performance of popular CNN models such as Vanilla CNN, VGG-like, ResNet-like, LeNet, AlexNet, and DenseNet. The project was carried out using an **NVIDIA A100 GPU** to ensure efficient training and faster processing times, given the complexity of some of the architectures. The CIFAR-10 dataset, known for its simplicity yet significant challenge in computer vision tasks, contains 60,000 images across 10 classes, with 50,000 images for training and 10,000 images for testing. The images are small (32x32 pixels), making it an excellent dataset for experimenting with different architectures without requiring too much computational power.
 
 ## Dataset Description:
 ### CIFAR-10:
@@ -54,7 +54,7 @@ The following features and hyperparameters were used consistently across all mod
 - **Epochs**: 100 epochs were run for each model.
 - **Batch Size**: 64
 
-All models were trained using an **L4 GPU**, which provided the necessary computational power to handle the larger models (like ResNet and DenseNet) efficiently. The GPU accelerated the training process, especially during convolution and backpropagation steps, enabling quicker experimentation and tuning.
+All models were trained using an **NVIDIA A100 GPU**, which provided the necessary computational power to handle the larger models (like ResNet and DenseNet) efficiently. The GPU accelerated the training process, especially during convolution and backpropagation steps, enabling quicker experimentation and tuning.
 
 ## Results and Evaluation
 Each model was evaluated on the CIFAR-10 test set after training. The performance of the models is summarized below:
@@ -70,3 +70,6 @@ This project provided a comprehensive comparison of various CNN architectures fo
 
 ## Contributors:  
 [Pravalika Arunkumar](https://github.com/pravalikaarunkumar)
+
+--- 
+
