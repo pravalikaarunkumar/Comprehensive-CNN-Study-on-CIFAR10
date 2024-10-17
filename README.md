@@ -51,7 +51,7 @@ The following features and hyperparameters were used consistently across all mod
 - **Optimizer**: Adam (Adaptive Moment Estimation)
 - **Loss Function**: Sparse Categorical Cross-Entropy (since CIFAR-10 is a multi-class classification problem)
 - **Metrics**: Accuracy
-- **Epochs**: 100 epochs were run for each model.
+- **Epochs**: 50 epochs were run for each model.
 - **Batch Size**: 64
 
 All models were trained using an **NVIDIA A100 GPU**, which provided the necessary computational power to handle the larger models (like ResNet and DenseNet) efficiently. The GPU accelerated the training process, especially during convolution and backpropagation steps, enabling quicker experimentation and tuning.
